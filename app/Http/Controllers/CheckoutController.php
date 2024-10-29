@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\BankPayment;
+use App\Models\BankPayment;
 use Illuminate\Http\Request;
-use App\OnlinePayment;
+use App\Models\OnlinePayment;
 
 class CheckoutController extends Controller
 {

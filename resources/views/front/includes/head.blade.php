@@ -19,7 +19,7 @@
     <!-- lightbox2-master -->
     <link id="theme-style" rel="stylesheet" href="{{asset('/')}}front/plugins/lightbox2-master/css/lightbox.min.css">
     <!-- Default Style -->
-    <link id="theme-style" rel="stylesheet" href="{{asset('/')}}css/app.css">
+    <link id="theme-style" rel="stylesheet" href="{{asset('/')}}front/css/checkout/bootstrap-3.css">
 
     @yield('css')
 

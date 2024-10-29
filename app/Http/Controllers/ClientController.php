@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\OnlinePayment;
-use App\BankPayment;
+use App\Models\OnlinePayment;
+use App\Models\BankPayment;
 use Illuminate\Http\Request;
-use App\Customer;
-use App\CustomerCredential;
+use App\Models\Customer;
+use App\Models\CustomerCredential;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Response;
